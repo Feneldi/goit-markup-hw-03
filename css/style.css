@@ -94,6 +94,7 @@ a {
 
 .footer-logo .footer-logo-part {
     color: #f4f4fd;
+    margin-bottom: 16px;
 }
 
 .header-nav-list-item-link {
@@ -127,10 +128,16 @@ a {
     color: #434455;
 }
 
+.footer-container {
+    display: block;
+    padding: 100px 0;
+}
+
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
 .main-section-one {
@@ -186,6 +193,10 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 } */
+
+.main-container-section-two {
+    padding: 120px 0;
+}
 
 .main-section-two-h_two {
     position: absolute;
