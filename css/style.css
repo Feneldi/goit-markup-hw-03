@@ -129,7 +129,8 @@ a {
 }
 
 .footer-container {
-    display: block;
+    display: inline-block;
+    margin-bottom: 16px;
     padding: 100px 0;
 }
 
@@ -194,10 +195,6 @@ a {
     overflow: hidden;
 } */
 
-.main-container-section-two {
-    padding: 120px 0;
-}
-
 .main-section-two-h_two {
     position: absolute;
     width: 1px;
@@ -214,6 +211,7 @@ a {
 .main-section-two-list {
     display: flex;
     gap: 24px;
+    padding: 120px 0;
 }
 
 .main-section-two-list-item {
