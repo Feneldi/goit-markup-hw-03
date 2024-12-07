@@ -49,7 +49,7 @@ a {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.container-header {
     display: flex;
     align-items: center;
 }
@@ -119,19 +119,20 @@ a {
     color: #434455;
 }
 
+/* ---------- Footer ---------- */
+
 .footer {
     background: #2e2f42;
+}
+
+.footer-container {
+    padding: 100px 0;
 }
 
 .footer-logo .footer-logo-part {
     color: #f4f4fd;
     display: inline-block;
     margin-bottom: 16px;
-}
-
-.footer-container {
-    display: block;
-    padding: 100px 0;
 }
 
 .footer-text {
@@ -141,16 +142,19 @@ a {
     max-width: 264px;
 }
 
+/* ---------- Секция №1 ---------- */
+
 .main-section-one {
     background-color:#2e2f42;
+}
+
+.container-section-one {
+    display: block;
     padding: 188px 0;
 }
 
-.main-container-section-one {
-    display: block;
-}
-
 .main-section-one-h_one {
+    display: block;
     max-width: 496px;
     margin: auto;
     font-weight: 700;
@@ -163,8 +167,8 @@ a {
 
 .main-section-one-button {
     display: block;
-    margin: auto;
     min-width: 169px;
+    margin: auto;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -182,6 +186,8 @@ a {
     background-color: #404BBF
 }
 
+/* ---------- Секция №2 ---------- */
+
 /* .visually-hidden {
     position: absolute;
     width: 1px;
@@ -195,6 +201,16 @@ a {
     overflow: hidden;
 } */
 
+.main-section-two {
+    padding: 120px 0;
+}
+
+.container-section-two {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .main-section-two-h_two {
     position: absolute;
     width: 1px;
@@ -206,10 +222,6 @@ a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.main-container-section-two {
-    padding: 120px 0;
 }
 
 .main-section-two-list {
@@ -235,11 +247,21 @@ a {
     letter-spacing: 0.02em;
 }
 
+/* ---------- Секция №3 ---------- */
+
 .main-section-three {
     background-color: #F4F4FD;
 }
 
+.container-section-three {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
 .main-section-three-h_two {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -249,8 +271,15 @@ a {
     text-transform: capitalize
 }
 
+.main-section-three-list {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
+}
+
 .main-section-three-list-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .main-section-three-list-item-h_three {
@@ -269,6 +298,8 @@ a {
     text-align: center;
     color: #434455;
 }
+
+/* ---------- Секция №4 ---------- */
 
 .main-section-four-h_two {
     font-weight: 700;
