@@ -35,6 +35,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block
+}
+
 /* common */
 
 .container {
@@ -334,12 +338,12 @@ a {
 
 .main-section-four-list-item {
     width: calc((100% - 48px) / 3);
-    border: 1px solid #e7e9fc;
-    border-top: none;
 }
 
 .container-section-four-portfolio {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .main-section-four-list-item-h_three {
