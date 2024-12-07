@@ -144,6 +144,7 @@ a {
 
 .main-section-one-h_one {
     max-width: 496px;
+    margin: auto;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -153,6 +154,8 @@ a {
 }
 
 .main-section-one-button {
+    display: block;
+    margin: auto;
     min-width: 169px;
     height: 56px;
     border: none;
