@@ -131,10 +131,13 @@ img {
 .container-footer {
 }
 
-.logo .footer-logo-part {
-    color: #f4f4fd;
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.footer-logo-part {
+    color: #f4f4fd;
 }
 
 .footer-text {
