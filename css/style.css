@@ -59,15 +59,7 @@ a {
     align-items: center;
 }
 
-.header-nav-list {
-    display: block;
-    padding: 24px 0;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.header-address-list {
+.header-nav-list, .header-address-list {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -105,6 +97,8 @@ a {
 }
 
 .header-nav-list-item-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -141,9 +135,15 @@ a {
 
 .main-section-one {
     background-color:#2e2f42;
+    padding: 188px 0;
+}
+
+.main-container-section-one {
+    display: block;
 }
 
 .main-section-one-h_one {
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -153,6 +153,10 @@ a {
 }
 
 .main-section-one-button {
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
